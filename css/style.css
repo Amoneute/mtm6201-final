@@ -1,0 +1,23 @@
+/* Override Bootstrap colors using CSS variables */
+:root {
+  --bs-primary: #000000;
+  --bs-secondary: #f2f2f2;
+  --bs-body-bg: #ffffff;
+  --bs-body-color: #111111;
+}
+
+/* Make images scale properly */
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Center text sections */
+.center-text {
+  text-align: center;
+}
+
+/* Add spacing to sections */
+.section {
+  padding: 60px 0;
+}
